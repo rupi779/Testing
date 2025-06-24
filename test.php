@@ -10,4 +10,8 @@ function add(a,b){
 function sub(a,b){
     echo 'a-b';
 }
+function mul(a,b)
+{
+    echo "a*b";
+}
 ?>
