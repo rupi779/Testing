@@ -3,8 +3,8 @@
 <?php
 function add(a,b){
 
-    a=20;
-    b=10;
+    a=10;
+    b=20;
     return a+b;
 }
 ?>
