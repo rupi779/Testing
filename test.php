@@ -7,4 +7,7 @@ function add(a,b){
     b=20;
     return a+b;
 }
+function sub(a,b){
+    echo 'a-b';
+}
 ?>
