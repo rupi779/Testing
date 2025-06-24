@@ -14,4 +14,6 @@ function mul(a,b)
 {
     echo "a*b";
 }
+fucntion divide(a,b)
+{echo a/b;}
 ?>
