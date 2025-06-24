@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Color Picker</title>
+</head>
+<body>
+
+<!-- Color input element -->
+<label for="colorPicker">Select a color:</label>
+<input type="color" id="colorPicker" value="#ff0000">
+
+<p id="selectedColor">Selected Color: #ff0000</p>
+
+<script>
+// Function to handle color selection
+function setupColorPicker() {
+  const colorInput = document.getElementById('colorPicker');
+  const colorDisplay = document.getElementById('selectedColor');
+
+  colorInput.addEventListener('input', function () {
+    const selectedColor = colorInput.value;
+    colorDisplay.textContent = "Selected Color: " + selectedColor;
+
+    // You can also use the selected color in your logic here
+    console.log("You selected: ", selectedColor);
+  });
+}
+
+// Initialize the color picker
+setupColorPicker();
+</script>
+
+</body>
+</html>
